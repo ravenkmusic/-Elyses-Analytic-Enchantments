@@ -13,8 +13,8 @@
  * @returns {number} position of the card in the stack
  */
 export function getCardPosition(stack, card) {
-    throw new Error('Implement the getCardPosition function');
-  }
+    return stack.indexOf(card);
+  }  
   
   /**
    * Determine if the stack contains the card
