@@ -57,8 +57,8 @@ export function getCardPosition(stack, card) {
    *
    * @returns {number | undefined} the first odd value
    */
-  export function getFirstOddCard(stack) {
-    throw new Error('Implement the getFirstOddCard function');
+  export function doesStackIncludeOddCard(stack) {
+    return stack.some((card) => card % 2 !== 0);
   }
   
   /**
